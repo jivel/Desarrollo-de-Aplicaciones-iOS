@@ -132,7 +132,9 @@ class Auto {
 }
 
 var auto = Auto()
+
 for _ in 1...20 {
-    print(auto.cambioDeVelocidad())
+    var cambioDeVelocidad = auto.cambioDeVelocidad()
+    print("\(cambioDeVelocidad.actual), \(cambioDeVelocidad.velocidadEnCadena)")
     
 }
